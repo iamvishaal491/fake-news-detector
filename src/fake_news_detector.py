@@ -8,6 +8,7 @@ from nltk.stem import WordNetLemmatizer
 nltk.download("stopwords") # Download NLTK assets only once
 nltk.download("punkt")
 nltk.download("wordnet")
+nltk.download("punkt_tab")
 
 real_news = pd.read_csv("True.csv")  # Load data
 fake_news = pd.read_csv("Fake.csv")
